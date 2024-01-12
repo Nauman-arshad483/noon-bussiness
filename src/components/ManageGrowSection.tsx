@@ -22,8 +22,6 @@ const ManageGrowSection = () => {
             </Button>
           </div>
         </div>
-
-        {/* Column 2 */}
         <div className="w-1/2 pl-4"></div>
       </div>
     </section>

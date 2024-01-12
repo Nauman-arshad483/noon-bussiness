@@ -4,7 +4,7 @@ import * as React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-import { Menu, Search } from "lucide-react";
+import { Menu } from "lucide-react";
 
 export default function Navbar() {
   const [state, setState] = React.useState(false);

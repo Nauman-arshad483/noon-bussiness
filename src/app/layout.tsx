@@ -29,7 +29,6 @@ export default function RootLayout({
       >
         <div className="flex w-full flex-col ">
           <Navbar />
-          {/* </div> */}
           <div className="flex p-8 w-full  "> {children}</div>
         </div>
       </body>
