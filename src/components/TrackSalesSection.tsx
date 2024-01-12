@@ -13,12 +13,12 @@ const TrackSalesSection = () => {
         </div>
         <div className="flex flex-col justify-center align-center w-1/2 pl-4">
           <h1 className="text-4xl font-bold mb-4">
-            {`Monitor your Amazon sales and profit in real-time with NoonMetrix.`}
+            Monitor your Amazon sales and profit in real-time with NoonMetrix.
           </h1>
           <p className="text-xl text-gray-600">
-            {`View Amazon Sales & Profit on Your Dashboard Explore your personal
-            dashboard featuring real-time financial metrics—Sales&quot Profit&quot PPC
-            Spend&quot Amazon Fees&quot ROI&quot Refunds&quot and key figures.`}
+            View Amazon Sales & Profit on Your Dashboard Explore your personal
+            dashboard featuring real-time financial metrics—Sales&quot; Profit&quot; PPC
+            Spend&quot Amazon Fees&quot ROI&quot Refunds&quot; and key figures.
           </p>
         </div>
       </div>

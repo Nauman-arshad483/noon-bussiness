@@ -94,9 +94,9 @@ const SignUp = () => {
         </div>
         <div>
           <p className="text-gray-700 w-64 flex justify-center items-center text-center">
-            {`You can click on columns to arrange the list in Seller Metrix. For
-            example, click on the "Refunds" column to find your products with
-            the most Refunds.`}
+            You can click on columns to arrange the list in Seller Metrix. For
+            example&quot; click on the Refunds column to find your products with
+            the most Refunds.
           </p>
         </div>
       </div>
