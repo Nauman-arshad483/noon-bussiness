@@ -7,11 +7,11 @@ const ManageGrowSection = () => {
       <div className="mx-auto flex space-x-8">
         <div className="w-1/2 p-4">
           <p className="text-xl mb-2 mt-10">
-            {`Sales Reviews, Email Automation Optimize, Generate, Automate with
+            {`Sales Reviews&quot; Email Automation Optimize&quot Generate&quot Automate with
             NoonMetrix.`}
           </p>
           <h2 className="text-6xl font-bold mr-[30px] mt-5">
-            {`Optimize ,Expand your Amazon Presence - for Sellers , Agencies`}
+            {`Optimize &quotExpand your Amazon Presence - for Sellers &quot Agencies`}
           </h2>
           <div className="flex space-x-4 mt-10">
             <Button className="start_free_trial_bt" variant="default">
