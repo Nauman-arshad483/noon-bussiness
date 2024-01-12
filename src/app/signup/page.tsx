@@ -45,7 +45,7 @@ const SignUp = () => {
                   htmlFor='email'
                   className='block text-gray-700 text-sm font-bold mb-2'
                 >
-                  Email:
+                  Email
                 </label>
                 <input
                   type='email'
@@ -60,7 +60,7 @@ const SignUp = () => {
                   htmlFor='password'
                   className='block text-gray-700 text-sm font-bold mb-2'
                 >
-                  Password:
+                  Password
                 </label>
                 <input
                   type='password'
