@@ -17,8 +17,8 @@ const TrackSalesSection = () => {
           </h1>
           <p className="text-xl text-gray-600">
             View Amazon Sales & Profit on Your Dashboard Explore your personal
-            dashboard featuring real-time financial metrics—Sales&quot; Profit&quot; PPC
-            Spend&quot Amazon Fees&quot ROI&quot Refunds&quot; and key figures.
+            dashboard featuring real-time financial metrics—Sales Profit PPC
+            Spend Amazon Fees ROI Refunds and key figures.
           </p>
         </div>
       </div>
