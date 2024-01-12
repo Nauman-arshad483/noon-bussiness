@@ -83,7 +83,7 @@ const SignUp = () => {
 
       <div className="flex-1 flex flex-col signup-right-col justify-center items-center p-4">
         <div className="mb-4">
-          <img
+          <Image
             src="/signup-image.png"
             alt="Image Description"
             className="signup-image object-cover"
