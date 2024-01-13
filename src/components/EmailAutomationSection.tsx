@@ -17,10 +17,10 @@ const EmailAutoamtionSection = () => {
           </h1>
           <p className="text-xl text-gray-600">
             Automate Customer Follow-ups with Email Effortlessly engage with
-            customers through automated emails or utilize the "Request Review"
-            feature, leveraging Amazon's internal communication system. This
-            fully automated, ToS-compliant process allows you to send unlimited
-            emails with any NoonMetrix plan.
+            customers through automated emails or utilize the &quot;Request
+            Review&quot; feature leveraging Amazons internal communication
+            system. This fully automated ToS-compliant process allows you to
+            send unlimited emails with any NoonMetrix plan.
           </p>
         </div>
       </div>
