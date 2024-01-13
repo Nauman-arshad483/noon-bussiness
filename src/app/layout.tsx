@@ -1,7 +1,10 @@
-import type { Metadata } from "next";
+import { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Image from "next/image";
 import "./globals.css";
 import { cn } from "@/lib/utils";
+
+import Footer from "@/components/Footer";
 import Navbar from "@/components/Navabr";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -16,20 +19,34 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+
   return (
     <html lang="en">
       <body
         className={cn(
-          "min-h-screen w-full bg-white text-black flex",
+          "min-h-screen w-full bg-cover bg-center bg-fixed bg-no-repeat",
+          "relative",
+          "bg-white text-black flex",
           inter.className,
           {
             "debug-screens": process.env.NODE_ENV === "development",
           }
         )}
       >
-        <div className="flex w-full flex-col ">
-          <Navbar />
-          <div className="flex p-8 w-full  "> {children}</div>
+        <div className="flex w-full flex-col relative">
+          <div className="flex  w-full relative z-10">{children}</div>
+          <div className="w-full pointer-events-none section1-bg ">
+            <div className="section1-bg-sub">
+              <Image
+                src="/section1-bg.webp"
+                alt="Background Image"
+                objectFit="cover"
+                quality={100}
+                width={800}
+                height={700}
+              />
+            </div>
+          </div>
         </div>
       </body>
     </html>

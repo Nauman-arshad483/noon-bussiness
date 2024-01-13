@@ -2,7 +2,7 @@ import React from "react";
 
 const TrackSalesSection = () => {
   return (
-    <section className="w-full section-padder">
+    <section className="w-full section-padder ">
       <div className="mx-auto flex space-x-8">
         <div className="w-1/2 p-4">
           <img

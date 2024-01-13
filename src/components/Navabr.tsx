@@ -8,16 +8,26 @@ import { Menu } from "lucide-react";
 
 export default function Navbar() {
   const [state, setState] = React.useState(false);
+  React.useEffect(() => {
+    const handleScroll = () => {
+      const isScrolled = window.scrollY > 50;
+      setState(isScrolled);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   const menus = [
     { title: "Features", path: "/your-path" },
     { title: "Pricing", path: "/your-path" },
-    { title: "Login", path: "/your-path" },
+    { title: "Login", path: "/login" },
     { title: "Sign up", path: "/signup" },
   ];
 
   return (
-    <nav className="bg-white w-full border-b md:border-0">
+    <nav className={`w-full border-b md:border-0 z-10 navContainer ${state ? 'fixed top-0 bg-white shadow-md' : ''}`}>
       <div className="items-center px-2 max-w-screen-3xl mx-auto md:flex md:px-8">
         <div className="flex items-center justify-between py-3 md:py-5 md:block">
           <Link href="/" className="flex items-center gap-3">

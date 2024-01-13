@@ -74,7 +74,33 @@
     @apply bg-background text-foreground;
   }
 }
+.navContainer{
+  padding-right: 50px;
+  padding-left: 60px;
+}
+.section1-bg {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.section1-bg-sub{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.section3-col-img img {
+  width: 390px;
+  height: auto;
 
+}
+.section5-col-img img {
+  width: 650px;
+  height: auto;
+}
+.section7-col-img img{
+width: 485px;
+height: auto;
+}
 .start_free_trial_bt {
   width: 9rem;
   height: 6vh;
@@ -84,7 +110,24 @@
   cursor: pointer;
   font-size: large;
 }
-
+.start_Chat_bt{
+  width: 9rem;
+  height: 6vh;
+  background: linear-gradient(to right, #f07804, #f8a817);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: large;
+}
+.start_free_trial_bt_1 {
+  width: 15rem;
+  height: 6vh;
+  background: linear-gradient(to right, #2ac793, #24b47f);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: large;
+}
 .signup_bt {
   width: 9rem;
   height: 5vh;
@@ -109,9 +152,10 @@
 
 .section-padder {
   padding-top: 55px;
-  padding-right: 0px;
+  padding-right: 80px;
+  padding-left: 80px;
   padding-bottom: 55px;
-  padding-left: 0px;
+
 }
 .signup-sub-box {
   margin-top: 7rem;
@@ -127,15 +171,16 @@
 }
 .signup-left-col {
   box-shadow: 10px 0 10px -5px rgba(10, 10, 10, 0.1);
+  height: 100vh;
 }
 .signup-right-col {
   background-color: #f5f7ff;
-
+ height: 100vh;
 }
-.signup-comp{
+.signup-comp {
   height: 84vh;
 }
-.signup-image{
+.signup-image {
   width: 300px;
   height: 300px;
 }

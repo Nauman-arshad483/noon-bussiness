@@ -1,10 +1,18 @@
+"use client"
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
-const SignUp = () => {
+const Login = () => {
+  const router = useRouter();
+  const handleLogin = (e: any) => {
+    e.preventDefault();
+   
+    router.push("/dashboard");
+  };
   return (
-    <div className="flex gap-2 w-full signup-comp">
+    <div className="flex gap-2 w-full login-comp">
       <div className="flex-1 flex-col justify-center items-center p-8 signup-left-col">
         <div className="flex flex-col gap-4 w-96 p-8 pt-10 mx-auto signup-sub-box">
           <div className="flex justify-center">
@@ -16,7 +24,7 @@ const SignUp = () => {
             </Link>
           </div>
           <div className="flex justify-center mb-10">
-            <p>Start your free trial</p>
+            <p>Welcome back! Log in to your account</p>
           </div>
 
           <div className="flex items-center">
@@ -35,11 +43,11 @@ const SignUp = () => {
               <path d="M6 8L2 12L6 16" />
               <path d="M2 12H22" />
             </svg>
-            <h2 className="text-3xl font-bold ">Sign Up</h2>
+            <h2 className="text-3xl font-bold ">Log In</h2>
           </div>
 
           <div className="flex">
-            <form className="w-full max-w-md mx-auto">
+            <form className="w-full max-w-md mx-auto" onSubmit={handleLogin}>
               <div className="mb-4">
                 <label
                   htmlFor="email"
@@ -72,9 +80,9 @@ const SignUp = () => {
 
               <button
                 type="submit"
-                className="bg-indigo-500 text-white px-4 py-2 rounded-md hover:bg-indigo-600 focus:outline-none focus:bg-indigo-600 register-bt"
+                className="bg-indigo-500 text-white px-4 py-2 rounded-md hover:bg-indigo-600 focus:outline-none focus:bg-indigo-600 login-bt"
               >
-                Sign Up
+                Log In
               </button>
             </form>
           </div>
@@ -106,4 +114,4 @@ const SignUp = () => {
   );
 };
 
-export default SignUp;
+export default Login;
