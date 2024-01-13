@@ -3,8 +3,8 @@ import React from "react";
 const FeaturesSection = () => {
   return (
     <section className="w-full section-padder">
-      <div className="flex flex-col gap-40">
-        <div className="flex flex-row justify-center items-center gap-52">
+      <div className="flex justify-center flex-col gap-40">
+        <div className="flex flex-row justify-center items-center gap-60">
           <div className="bg-white flex flex-col justify-center items-center">
             <div className="p-4 shadow-md rounded-lg">
               <img
@@ -77,7 +77,7 @@ const FeaturesSection = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-row justify-center items-center gap-52">
+        <div className="flex flex-row justify-center items-center gap-60">
           <div className="bg-white flex flex-col justify-center items-center ">
             <div className="p-4 shadow-md rounded-lg">
               <img
